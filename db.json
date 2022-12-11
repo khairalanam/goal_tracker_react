@@ -1,0 +1,46 @@
+{
+  "goals": [
+    {
+      "id": 3,
+      "goalTask": "Finish Gatsby",
+      "day": 14,
+      "month": 9,
+      "year": 2022
+    },
+    {
+      "id": 4,
+      "goalTask": "Hit gym",
+      "day": 4,
+      "month": 4,
+      "year": 2022
+    },
+    {
+      "id": 5,
+      "goalTask": "Lose 5 kg",
+      "day": 29,
+      "month": 10,
+      "year": 2022
+    },
+    {
+      "id": 6,
+      "goalTask": "Get Adobe internship",
+      "day": 1,
+      "month": 5,
+      "year": 2022
+    },
+    {
+      "goalTask": "Complete MongoDB",
+      "day": "23",
+      "month": "9",
+      "year": "2022",
+      "id": 7
+    },
+    {
+      "goalTask": "Complete a Udemy Course",
+      "day": "23",
+      "month": "6",
+      "year": "2022",
+      "id": 8
+    }
+  ]
+}

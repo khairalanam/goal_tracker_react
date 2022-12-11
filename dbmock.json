@@ -1,0 +1,58 @@
+{
+    "goals": [
+        {
+            "id": 1,
+            "goal": "Finish React",
+            "date": [{
+                "day": 24,
+                "month": 1,
+                "year": 2022
+            }]
+        },
+        {
+            "id": 2,
+            "goal": "Achieve the Hackathon prize",
+            "date": [{
+                "day": 30,
+                "month": 4,
+                "year": 2022
+            }]
+        },
+        {
+            "id": 3,
+            "goal": "Finish Gatsby",
+            "date": [{
+                "day": 14,
+                "month": 9,
+                "year": 2022
+            }]
+        },
+        {
+            "id": 4,
+            "goal": "Hit gym",
+            "date": [{
+                "day": 4,
+                "month": 4,
+                "year": 2022
+            }]
+        },
+        {
+            "id": 5,
+            "goal": "Lose 5 kg",
+            "date": [{
+                "day": 29,
+                "month": 10,
+                "year": 2022
+            }]
+        },
+        {
+            "id": 6,
+            "goal": "Get Adobe internship",
+            "date": [{
+                "day": 1,
+                "month": 5,
+                "year": 2022
+            }]
+        }
+    ]
+  }

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Archivo", sans-serif;
+}
+
+body {
+  background-color: rgb(163, 228, 241);
+}
+
+.header-section {
+  padding: 2em 0;
+  text-align: center;
+  background-color: aliceblue;
+}
+.header-section h1 {
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.header-section h5 {
+  font-weight: 300;
+}
+
+.main-section {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.main-section .search-bar {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  font-size: 0.75rem;
+  flex-basis: 0;
+  flex-grow: 3;
+}
+.main-section .btn {
+  font-size: 0.675rem;
+  padding: 0.5rem;
+  flex-basis: 0;
+  flex-grow: 1;
+  border: none;
+  background-color: rgb(73, 146, 255);
+  color: white;
+  transition: ease-in-out 200ms;
+  border-radius: 0.25rem;
+}
+.main-section .btn:hover {
+  background-color: rgb(40, 108, 209);
+  cursor: pointer;
+}
+
+.goals-list {
+  padding: 0em 1em;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.goals-list .goal-li {
+  display: flex;
+  font-size: 0.75rem;
+  border: 0.0125rem black solid;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.25rem;
+}
+.goals-list .goal-li .check-box {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: rgb(99, 99, 99);
+  border-radius: 0.25rem;
+  width: 1rem;
+  height: 1rem;
+}
+.goals-list .goal-li .check-box:hover {
+  cursor: pointer;
+}
+.goals-list .goal-li .check-box:active {
+  background-color: rgb(63, 63, 63);
+}
+.goals-list .goal-li .check-box:checked {
+  background-color: white;
+  border: 0.0125rem rgb(99, 99, 99) solid;
+}
+.goals-list .goal-li .check-box:checked:active {
+  background-color: rgb(63, 63, 63);
+}
+.goals-list .goal-li .check-box:checked::after {
+  content: "✔";
+  color: rgb(99, 99, 99);
+  display: flex;
+  justify-content: center;
+}
+.goals-list .goal-li .dust-bin {
+  display: none;
+}
+.goals-list .goal-li .dust-bin:hover {
+  cursor: pointer;
+}
+.goals-list .goal-li:hover .dust-bin {
+  display: block;
+}/*# sourceMappingURL=App.css.map */
